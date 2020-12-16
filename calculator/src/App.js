@@ -1,6 +1,7 @@
 import './App.css';
 import Button from './components/Button.js';
 import Input from './components/Input';
+import ClearButton from './components/ClearButton';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
           <Button>0</Button>
           <Button>=</Button>
           <Button>-</Button>
+        </div>
+        <div className='row'>
+          <ClearButton />
         </div>
       </div>
     </div>
