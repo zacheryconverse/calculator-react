@@ -9,3 +9,7 @@
   outline: 1px solid #888;
   background-color: #c5c3cd;
 }
+
+.clear-btn:hover {
+  background-color: lightgray;
+}

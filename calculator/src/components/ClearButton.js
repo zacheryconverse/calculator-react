@@ -4,7 +4,7 @@ import './ClearButton.css';
 class Clear extends Component {
   render() {
     return (
-      <div className='clear-btn'>
+      <div onClick={() => this.props.handleClear()} className='clear-btn'>
         Clear
       </div>
     )
